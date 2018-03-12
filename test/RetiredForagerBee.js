@@ -3,7 +3,7 @@ describe('RetiredForagerBee class functionality', function() {
   verifyClass(RetiredForagerBee).followsPattern('pseudoclassical', {}, false);
 
   beforeEach(function() {
-    retiredForager = new RetiredForagerBee();
+    retiredForager = new RetiredForagerBee();    
   });
 
   /*  Overwrite methods from superclass  */
